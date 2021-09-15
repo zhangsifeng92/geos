@@ -1,4 +1,4 @@
-module github.com/eosspark/eos-go
+module github.com/eosspark/geos
 
 go 1.13
 
