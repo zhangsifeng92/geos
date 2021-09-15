@@ -20,3 +20,5 @@ TODO notes
 -------
 
 need to implement all eos protocol
+ 
+go.mod update
