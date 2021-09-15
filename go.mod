@@ -1,4 +1,4 @@
-module github.com/eosspark/geos
+module github.com/zhangsifeng92/geos
 
 go 1.13
 
