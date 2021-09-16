@@ -1,9 +1,9 @@
 package chain
 
 import (
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/common/eos_math"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/common/eos_math"
 )
 
 type NewAccount struct {
@@ -107,7 +107,7 @@ func (u UnLinkAuth) GetName() common.ActionName {
 }
 
 type CancelDelay struct {
-	CancelingAuth common.PermissionLevel    `json:""`
+	CancelingAuth common.PermissionLevel   `json:""`
 	TrxId         common.TransactionIdType `json:""`
 }
 

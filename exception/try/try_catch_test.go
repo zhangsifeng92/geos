@@ -3,10 +3,10 @@ package try
 import (
 	"errors"
 	"fmt"
-	//"github.com/eosspark/eos-go/exceptionx"
-	"github.com/eosspark/eos-go/exception"
-	"github.com/eosspark/eos-go/log"
+	//"github.com/zhangsifeng92/geos/exceptionx"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/exception"
+	"github.com/zhangsifeng92/geos/log"
 	"testing"
 )
 
@@ -51,7 +51,7 @@ func TestTry_pointer(t *testing.T) {
 
 func panicNil() {
 	var a *int
-	*a ++
+	*a++
 }
 
 func TestTry_RuntimeError(t *testing.T) {

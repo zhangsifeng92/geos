@@ -5,8 +5,8 @@ import (
 
 	"math"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/disasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/disasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
 	"strings"
 )
 

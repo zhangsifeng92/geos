@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
-	"github.com/eosspark/eos-go/crypto"
+	"github.com/zhangsifeng92/geos/crypto"
 	"strings"
 )
 

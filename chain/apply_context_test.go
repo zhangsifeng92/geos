@@ -1,10 +1,10 @@
 package chain
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	"github.com/eosspark/eos-go/entity"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	"github.com/zhangsifeng92/geos/entity"
 	"testing"
 )
 

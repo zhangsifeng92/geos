@@ -1,10 +1,10 @@
 package hashed_index
 
 import (
-	"github.com/eosspark/eos-go/libraries/container"
-	"github.com/eosspark/eos-go/libraries/interprocess/allocator"
-	. "github.com/eosspark/eos-go/libraries/interprocess/offsetptr"
-	"github.com/eosspark/eos-go/libraries/multiindex"
+	"github.com/zhangsifeng92/geos/libraries/container"
+	"github.com/zhangsifeng92/geos/libraries/interprocess/allocator"
+	. "github.com/zhangsifeng92/geos/libraries/interprocess/offsetptr"
+	"github.com/zhangsifeng92/geos/libraries/multiindex"
 	"unsafe"
 )
 
@@ -103,8 +103,8 @@ func (b *Buckets) At(i uintptr) *HashedIndexNode {
 type HashedIndexNode struct {
 	super  Pointer `*SuperNode` // index-node on the HashedUniqueIndexNode, IndexBaseNode is the last super node
 	final  Pointer `*FinalNode` // index-node under the HashedUniqueIndexNode, MultiIndexNode is the final index
-	bucket uintptr              // buckets position
-	key    Key                  // k of hashtable
+	bucket uintptr // buckets position
+	key    Key     // k of hashtable
 	next   Pointer `*HashedIndexNode`
 }
 

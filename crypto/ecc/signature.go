@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	. "github.com/eosspark/eos-go/exception/try"
+	. "github.com/zhangsifeng92/geos/exception/try"
 	"strings"
 
-	"github.com/eosspark/eos-go/crypto/btcsuite/btcutil/base58"
+	"github.com/zhangsifeng92/geos/crypto/btcsuite/btcutil/base58"
 )
 
 type innerSignature interface {

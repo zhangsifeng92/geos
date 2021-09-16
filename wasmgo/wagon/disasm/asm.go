@@ -9,8 +9,8 @@ import (
 	"encoding/binary"
 	"math"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
-	ops "github.com/eosspark/eos-go/wasmgo/wagon/wasm/operators"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
+	ops "github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/operators"
 )
 
 // Assemble encodes a set of instructions into binary representation.

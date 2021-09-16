@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/eosspark/eos-go/log"
+	"github.com/zhangsifeng92/geos/log"
 )
 
 // template type Exception(PARENT,CODE,WHAT)

@@ -1,8 +1,8 @@
 package offsetptr
 
 import (
-	"github.com/eosspark/eos-go/libraries/interprocess/allocator/callocator"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/libraries/interprocess/allocator/callocator"
 	"runtime"
 	"testing"
 	"unsafe"

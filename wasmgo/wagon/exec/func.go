@@ -9,7 +9,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/exec/internal/compile"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/exec/internal/compile"
 )
 
 type function interface {

@@ -1,13 +1,13 @@
 package chain_plugin
 
 import (
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/plugins/appbase/app"
-	. "github.com/eosspark/eos-go/plugins/chain_interface"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/plugins/appbase/app"
+	. "github.com/zhangsifeng92/geos/plugins/chain_interface"
 )
 
 type ReadWrite struct {

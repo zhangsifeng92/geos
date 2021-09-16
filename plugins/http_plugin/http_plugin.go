@@ -2,14 +2,14 @@ package http_plugin
 
 import (
 	"encoding/json"
-	"github.com/eosspark/eos-go/common"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
-	. "github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/libraries/asio"
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp"
 	"github.com/urfave/cli"
+	"github.com/zhangsifeng92/geos/common"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	"github.com/zhangsifeng92/geos/log"
+	. "github.com/zhangsifeng92/geos/plugins/appbase/app"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp"
 )
 
 const (

@@ -2,12 +2,12 @@ package net_plugin
 
 import (
 	"encoding/binary"
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	"github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	. "github.com/eosspark/eos-go/plugins/net_plugin/multi_index"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	"github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	. "github.com/zhangsifeng92/geos/plugins/net_plugin/multi_index"
 	"unsafe"
 )
 

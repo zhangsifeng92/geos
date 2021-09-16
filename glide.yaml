@@ -1,4 +1,4 @@
-package: github.com/eosspark/eos-go
+package: github.com/zhangsifeng92/geos
 import:
 - package: github.com/deckarep/golang-set
 - package: github.com/docker/docker

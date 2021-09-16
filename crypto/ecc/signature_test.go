@@ -3,9 +3,9 @@ package ecc_test
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/eosspark/eos-go/crypto/ecc"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
 	"testing"
 )
 

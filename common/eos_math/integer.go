@@ -2,7 +2,7 @@ package eos_math
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/exception/try"
+	"github.com/zhangsifeng92/geos/exception/try"
 	"strconv"
 )
 

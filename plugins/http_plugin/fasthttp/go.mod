@@ -1,11 +1,11 @@
-module github.com/eosspark/eos-go/plugins/http_plugin/fasthttp
+module github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp
 
 go 1.16
 
 require (
 	github.com/eapache/channels v1.1.0 // indirect
 	github.com/eapache/queue v1.1.0 // indirect
-	github.com/eosspark/eos-go v0.0.0-20190820132053-c626c17c72f9
+	github.com/zhangsifeng92/geos v0.0.0-20190820132053-c626c17c72f9
 	github.com/klauspost/compress v1.4.0
 	github.com/klauspost/cpuid v0.0.0-20180405133222-e7e905edc00e // indirect
 	github.com/stretchr/testify v1.7.0 // indirect

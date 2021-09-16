@@ -1,27 +1,23 @@
 package wallet_plugin
 
 import (
-	"github.com/eosspark/eos-go/crypto/ecc"
-	"github.com/eosspark/eos-go/exception"
-	"github.com/eosspark/eos-go/exception/try"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	"github.com/zhangsifeng92/geos/exception"
+	"github.com/zhangsifeng92/geos/exception/try"
 )
 
 type KeyMapType = map[ecc.PublicKey]uint16
 
 type YhConnector struct {
-
 }
 
 type YhSession struct {
-
 }
 
 type YhCapabilities struct {
-
 }
 
 type YubihsmApi struct {
-
 }
 
 type YubihsmWalletImpl struct {

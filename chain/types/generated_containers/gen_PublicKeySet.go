@@ -16,11 +16,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	"github.com/eosspark/eos-go/libraries/container"
-	rbt "github.com/eosspark/eos-go/libraries/container/redblacktree"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	"github.com/zhangsifeng92/geos/libraries/container"
+	rbt "github.com/zhangsifeng92/geos/libraries/container/redblacktree"
 )
 
 // template type Set(V,Compare,Multi)

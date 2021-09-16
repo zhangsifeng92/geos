@@ -1,15 +1,15 @@
 package unittests
 
 import (
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/chain/abi_serializer"
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/entity"
-	"github.com/eosspark/eos-go/exception"
-	"github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/abi_serializer"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/entity"
+	"github.com/zhangsifeng92/geos/exception"
+	"github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/log"
 	"io/ioutil"
 	"strings"
 	"testing"

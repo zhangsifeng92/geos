@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
 )
 
 func readBytes(r io.Reader, n int) ([]byte, error) {

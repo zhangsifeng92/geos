@@ -2,8 +2,8 @@ package common_test
 
 import (
 	"encoding/json"
-	"github.com/eosspark/eos-go/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/common"
 	"testing"
 )
 
@@ -63,7 +63,7 @@ func Example_StaticVariant() {
 	var example common.StaticVariant = int(1)
 
 	if vt, ok := example.(int); ok {
-		vt ++
+		vt++
 	} else if _, ok := example.(string); ok {
 		//else operation
 	}

@@ -3,7 +3,7 @@ package wasmgo
 import (
 	"errors"
 
-	"github.com/eosspark/eos-go/wasmgo/utils"
+	"github.com/zhangsifeng92/geos/wasmgo/utils"
 )
 
 var _ ImportResolver = (*NopResolver)(nil)

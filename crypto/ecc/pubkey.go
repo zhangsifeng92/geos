@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	. "github.com/eosspark/eos-go/exception/try"
+	. "github.com/zhangsifeng92/geos/exception/try"
 	"strings"
 
-	"github.com/eosspark/eos-go/crypto/btcsuite/btcd/btcec"
-	"github.com/eosspark/eos-go/crypto/btcsuite/btcutil/base58"
+	"github.com/zhangsifeng92/geos/crypto/btcsuite/btcd/btcec"
+	"github.com/zhangsifeng92/geos/crypto/btcsuite/btcutil/base58"
 	"golang.org/x/crypto/ripemd160"
 	"reflect"
 )

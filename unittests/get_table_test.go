@@ -1,10 +1,10 @@
 package unittests
 
 import (
-	. "github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/plugins/chain_plugin"
 	"github.com/stretchr/testify/assert"
+	. "github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/plugins/chain_plugin"
 	"io/ioutil"
 	"math"
 	"testing"

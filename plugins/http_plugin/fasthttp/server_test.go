@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp/fasthttputil"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp/fasthttputil"
 )
 
 // Make sure RequestCtx implements context.Context

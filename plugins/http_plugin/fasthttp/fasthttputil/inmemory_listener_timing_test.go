@@ -5,8 +5,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp"
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp/fasthttputil"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp/fasthttputil"
 )
 
 // BenchmarkPlainStreaming measures end-to-end plaintext streaming performance

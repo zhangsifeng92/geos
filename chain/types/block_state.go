@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
 	"reflect"
 )
 

@@ -2,9 +2,9 @@ package console
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/plugins/console_plugin/console/jsre"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
+	"github.com/zhangsifeng92/geos/plugins/console_plugin/console/jsre"
 	"io"
 	"io/ioutil"
 	"os"
@@ -397,7 +397,7 @@ func (c *Console) logo() {
 	//fmt.Fprintf(c.printer,"\tEOSGO Telegram channel @ https://t.me/EOSProject\n")
 	//fmt.Fprintf(c.printer,"\tEOSGO Resources: https://eos.io/resources/\n")
 	//fmt.Fprintf(c.printer,"\tEOSGO Stack Exchange: https://eosio.stackexchange.com\n")
-	//fmt.Fprintf(c.printer, "\tGithub: https://github.com/eosspark/eos-go\n\n")
+	//fmt.Fprintf(c.printer, "\tGithub: https://github.com/zhangsifeng92/geos\n\n")
 	fmt.Fprintf(c.printer, "\tWelcome to the EOSGO JavaScript console!\n")
 }
 

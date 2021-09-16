@@ -9,7 +9,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/internal/readpos"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/internal/readpos"
 )
 
 var ErrInvalidMagic = errors.New("wasm: Invalid magic number")

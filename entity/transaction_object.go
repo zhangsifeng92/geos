@@ -1,6 +1,6 @@
 package entity
 
-import "github.com/eosspark/eos-go/common"
+import "github.com/zhangsifeng92/geos/common"
 
 type TransactionObject struct {
 	ID         common.IdType            `multiIndex:"id,increment,byExpiration"`

@@ -1,9 +1,9 @@
 package console_plugin
 
 import (
-	"github.com/eosspark/eos-go/log"
-	"github.com/eosspark/eos-go/libraries/asio"
-	"github.com/eosspark/eos-go/plugins/console_plugin/console"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	"github.com/zhangsifeng92/geos/log"
+	"github.com/zhangsifeng92/geos/plugins/console_plugin/console"
 )
 
 type ConsolePluginImpl struct {

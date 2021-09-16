@@ -1,10 +1,10 @@
 package types
 
 import (
-	"github.com/eosspark/eos-go/common"
-	math "github.com/eosspark/eos-go/common/eos_math"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
+	"github.com/zhangsifeng92/geos/common"
+	math "github.com/zhangsifeng92/geos/common/eos_math"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
 )
 
 type BlockTimeStamp uint32

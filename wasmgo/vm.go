@@ -4,16 +4,16 @@ import (
 	//"bytes"
 	"encoding/binary"
 	"fmt"
-	//"github.com/eosspark/eos-go/wasmgo/wagon/wast"
+	//"github.com/zhangsifeng92/geos/wasmgo/wagon/wast"
 	//"io/ioutil"
 	"math"
 	"math/bits"
 
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/wasmgo/compiler"
-	"github.com/eosspark/eos-go/wasmgo/compiler/opcodes"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/wasmgo/compiler"
+	"github.com/zhangsifeng92/geos/wasmgo/compiler/opcodes"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
 )
 
 // FunctionImport represents the function import type. If len(sig.ReturnTypes) == 0, the return value will be ignored.

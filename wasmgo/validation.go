@@ -2,16 +2,16 @@ package wasmgo
 
 import (
 	"bytes"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/wasmgo/compiler"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/wasmgo/compiler"
 
 	//"fmt"
-	"github.com/eosspark/eos-go/wasmgo/wagon/disasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/disasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
 
-	ops "github.com/eosspark/eos-go/wasmgo/wagon/wasm/operators"
+	ops "github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/operators"
 )
 
 var (

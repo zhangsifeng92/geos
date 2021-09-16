@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
-	ops "github.com/eosspark/eos-go/wasmgo/wagon/wasm/operators"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
+	ops "github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/operators"
 )
 
 type Error struct {

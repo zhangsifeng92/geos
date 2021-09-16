@@ -10,9 +10,9 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/plugins/console_plugin/console/jsre/deps"
 	"github.com/robertkrimen/otto"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/plugins/console_plugin/console/jsre/deps"
 )
 
 var Eosgo_JS = deps.MustAsset("eosgo.js")

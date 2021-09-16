@@ -1,8 +1,8 @@
 package http_plugin
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/libraries/asio"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/libraries/asio"
 	"net"
 	"net/http"
 )

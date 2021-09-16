@@ -2,9 +2,9 @@ package unittests
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
 	"io/ioutil"
 	"testing"
 )

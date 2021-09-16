@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"log"
 
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp"
 )
 
 // Setup file handlers (aka 'file server config')

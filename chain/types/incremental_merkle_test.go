@@ -2,9 +2,9 @@ package types
 
 import (
 	"fmt"
-	. "github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
 	"github.com/stretchr/testify/assert"
+	. "github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
 	"testing"
 )
 

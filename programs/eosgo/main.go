@@ -1,22 +1,22 @@
 package main
 
 import (
-	. "github.com/eosspark/eos-go/exception"
-	"github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
-	. "github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/plugins/chain_plugin"
-	"github.com/eosspark/eos-go/plugins/http_plugin"
-	"github.com/eosspark/eos-go/plugins/net_plugin"
-	"github.com/eosspark/eos-go/plugins/producer_plugin"
+	. "github.com/zhangsifeng92/geos/exception"
+	"github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/log"
+	. "github.com/zhangsifeng92/geos/plugins/appbase/app"
+	"github.com/zhangsifeng92/geos/plugins/chain_plugin"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin"
+	"github.com/zhangsifeng92/geos/plugins/net_plugin"
+	"github.com/zhangsifeng92/geos/plugins/producer_plugin"
 	"os"
 	"strings"
 
-	_ "github.com/eosspark/eos-go/plugins/chain_api_plugin"
-	_ "github.com/eosspark/eos-go/plugins/console_plugin"
-	_ "github.com/eosspark/eos-go/plugins/net_api_plugin"
-	_ "github.com/eosspark/eos-go/plugins/wallet_api_plugin"
-	_ "github.com/eosspark/eos-go/plugins/wallet_plugin"
+	_ "github.com/zhangsifeng92/geos/plugins/chain_api_plugin"
+	_ "github.com/zhangsifeng92/geos/plugins/console_plugin"
+	_ "github.com/zhangsifeng92/geos/plugins/net_api_plugin"
+	_ "github.com/zhangsifeng92/geos/plugins/wallet_api_plugin"
+	_ "github.com/zhangsifeng92/geos/plugins/wallet_plugin"
 )
 
 const (

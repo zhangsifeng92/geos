@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
 )
 
 type AccountHistoryObject struct {

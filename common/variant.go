@@ -2,8 +2,8 @@ package common
 
 import (
 	"encoding/json"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
 )
 
 type Variant = interface{}

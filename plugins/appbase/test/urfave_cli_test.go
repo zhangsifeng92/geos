@@ -2,11 +2,11 @@ package test
 
 import (
 	"fmt"
+	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli"
+	main "github.com/zhangsifeng92/geos/plugins/producer_plugin/testing"
 	"os"
 	"testing"
-	main "github.com/eosspark/eos-go/plugins/producer_plugin/testing"
-	"github.com/stretchr/testify/assert"
 )
 
 func TestUrfaveCli(t *testing.T) {

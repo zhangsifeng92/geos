@@ -1,20 +1,20 @@
 package producer_plugin
 
 import (
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/chain/types"
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
-	"github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/plugins/appbase/app/include"
-	"github.com/eosspark/eos-go/libraries/asio"
-	"github.com/eosspark/eos-go/plugins/chain_interface"
-	. "github.com/eosspark/eos-go/plugins/producer_plugin/multi_index"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/types"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	"github.com/zhangsifeng92/geos/log"
+	"github.com/zhangsifeng92/geos/plugins/appbase/app"
+	"github.com/zhangsifeng92/geos/plugins/appbase/app/include"
+	"github.com/zhangsifeng92/geos/plugins/chain_interface"
+	. "github.com/zhangsifeng92/geos/plugins/producer_plugin/multi_index"
 )
 
 type ProducerPluginImpl struct {

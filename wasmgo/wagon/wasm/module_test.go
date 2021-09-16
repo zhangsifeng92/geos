@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
 )
 
 var testPaths = []string{

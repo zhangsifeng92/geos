@@ -1,14 +1,14 @@
 package unittests
 
 import (
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/chain/types"
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	"github.com/eosspark/eos-go/exception"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/types"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	"github.com/zhangsifeng92/geos/exception"
 	"testing"
 )
 
@@ -133,7 +133,7 @@ func TestAuthorityChecker(t *testing.T) {
 	b := bt.getPublicKey(common.N("b"), "active")
 	c := bt.getPublicKey(common.N("c"), "active")
 
-	getNullAuthority := func(p *common.PermissionLevel) types.SharedAuthority {return types.SharedAuthority{}}
+	getNullAuthority := func(p *common.PermissionLevel) types.SharedAuthority { return types.SharedAuthority{} }
 
 	makeAuthChecker := func(pta types.PermissionToAuthorityFunc, recursionDepthLimit uint16, pubkeys []ecc.PublicKey) types.AuthorityChecker {
 		keySet := NewPublicKeySet()
@@ -227,7 +227,7 @@ func TestAuthorityChecker(t *testing.T) {
 	A = types.SharedAuthority{
 		Threshold: 2,
 		Keys:      []types.KeyWeight{{Key: a, Weight: 2}, {Key: b, Weight: 1}},
-		Accounts: []types.PermissionLevelWeight{{Permission:common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")}, Weight:1}},
+		Accounts:  []types.PermissionLevelWeight{{Permission: common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, Weight: 1}},
 	}
 
 	{
@@ -277,7 +277,7 @@ func TestAuthorityChecker(t *testing.T) {
 	A = types.SharedAuthority{
 		Threshold: 3,
 		Keys:      []types.KeyWeight{{a, 2}, {b, 1}},
-		Accounts: []types.PermissionLevelWeight{{Permission:common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")}, Weight:3}},
+		Accounts:  []types.PermissionLevelWeight{{Permission: common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, Weight: 3}},
 	}
 
 	{
@@ -299,7 +299,7 @@ func TestAuthorityChecker(t *testing.T) {
 	A = types.SharedAuthority{
 		Threshold: 2,
 		Keys:      []types.KeyWeight{{a, 1}, {b, 1}},
-		Accounts: []types.PermissionLevelWeight{{Permission:common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")}, Weight:1}},
+		Accounts:  []types.PermissionLevelWeight{{Permission: common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, Weight: 1}},
 	}
 
 	{
@@ -330,7 +330,7 @@ func TestAuthorityChecker(t *testing.T) {
 	A = types.SharedAuthority{
 		Threshold: 2,
 		Keys:      []types.KeyWeight{{a, 1}, {b, 1}},
-		Accounts: []types.PermissionLevelWeight{{Permission:common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")}, Weight:2}},
+		Accounts:  []types.PermissionLevelWeight{{Permission: common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, Weight: 2}},
 	}
 
 	{
@@ -362,7 +362,7 @@ func TestAuthorityChecker(t *testing.T) {
 			return types.SharedAuthority{
 				Threshold: 2,
 				Keys:      []types.KeyWeight{{d, 1}},
-				Accounts: []types.PermissionLevelWeight{{Permission:common.PermissionLevel{Actor:common.N("bottom"), Permission:common.N("bottom")}, Weight:1}},
+				Accounts:  []types.PermissionLevelWeight{{Permission: common.PermissionLevel{Actor: common.N("bottom"), Permission: common.N("bottom")}, Weight: 1}},
 			}
 		}
 		return types.SharedAuthority{
@@ -374,7 +374,7 @@ func TestAuthorityChecker(t *testing.T) {
 	A = types.SharedAuthority{
 		Threshold: 5,
 		Keys:      []types.KeyWeight{{a, 2}, {b, 2}, {c, 2}},
-		Accounts: []types.PermissionLevelWeight{{Permission:common.PermissionLevel{Actor:common.N("top"), Permission:common.N("top")}, Weight:5}},
+		Accounts:  []types.PermissionLevelWeight{{Permission: common.PermissionLevel{Actor: common.N("top"), Permission: common.N("top")}, Weight: 5}},
 	}
 
 	{
@@ -463,48 +463,48 @@ func TestAuthorityChecker(t *testing.T) {
 			Threshold: 4,
 			Keys:      []types.KeyWeight{{b, 1}, {a, 1}, {c, 1}},
 			Accounts: []types.PermissionLevelWeight{
-							{common.PermissionLevel{Actor:common.N("a"), Permission:common.N("world")},1},
-							{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},1},
-							{common.PermissionLevel{Actor:common.N("hi"), Permission:common.N("world")},1},
+				{common.PermissionLevel{Actor: common.N("a"), Permission: common.N("world")}, 1},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 1},
+				{common.PermissionLevel{Actor: common.N("hi"), Permission: common.N("world")}, 1},
 			},
 		}
 		B := types.SharedAuthority{
 			Threshold: 4,
 			Keys:      []types.KeyWeight{{b, 1}, {a, 1}, {c, 1}},
 			Accounts: []types.PermissionLevelWeight{
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},1},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 1},
 			},
 		}
 		C := types.SharedAuthority{
 			Threshold: 4,
 			Keys:      []types.KeyWeight{{b, 1}, {a, 1}, {c, 1}},
 			Accounts: []types.PermissionLevelWeight{
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("there")},1},
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},1},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("there")}, 1},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 1},
 			},
 		}
 		D := types.SharedAuthority{
 			Threshold: 4,
 			Keys:      []types.KeyWeight{{b, 1}, {a, 1}, {c, 1}},
 			Accounts: []types.PermissionLevelWeight{
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},1},
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},2},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 1},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 2},
 			},
 		}
 		E := types.SharedAuthority{
 			Threshold: 4,
 			Keys:      []types.KeyWeight{{b, 1}, {a, 1}, {c, 1}},
 			Accounts: []types.PermissionLevelWeight{
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},2},
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("there")},1},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 2},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("there")}, 1},
 			},
 		}
 		F := types.SharedAuthority{
 			Threshold: 4,
 			Keys:      []types.KeyWeight{{b, 1}, {a, 1}, {c, 1}},
 			Accounts: []types.PermissionLevelWeight{
-				{common.PermissionLevel{Actor:common.N("hi"), Permission:common.N("world")},2},
-				{common.PermissionLevel{Actor:common.N("hello"), Permission:common.N("world")},1},
+				{common.PermissionLevel{Actor: common.N("hi"), Permission: common.N("world")}, 2},
+				{common.PermissionLevel{Actor: common.N("hello"), Permission: common.N("world")}, 1},
 			},
 		}
 		G := types.SharedAuthority{

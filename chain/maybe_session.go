@@ -1,7 +1,7 @@
 package chain
 
 import (
-	"github.com/eosspark/eos-go/database"
+	"github.com/zhangsifeng92/geos/database"
 )
 
 type MaybeSession struct {

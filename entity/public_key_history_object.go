@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/ecc"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
 )
 
 type PublicKeyHistoryObject struct {

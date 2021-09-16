@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp/fasthttputil"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp/fasthttputil"
 )
 
 // StreamWriter must write data to w.

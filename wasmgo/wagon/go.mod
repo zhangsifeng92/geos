@@ -1,1 +1,1 @@
-module github.com/eosspark/eos-go/wasmgo/wagon
+module github.com/zhangsifeng92/geos/wasmgo/wagon

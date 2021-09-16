@@ -1,12 +1,12 @@
 package chain
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/common/eos_math"
-	"github.com/eosspark/eos-go/database"
-	"github.com/eosspark/eos-go/entity"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/common/eos_math"
+	"github.com/zhangsifeng92/geos/database"
+	"github.com/zhangsifeng92/geos/entity"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
 )
 
 type Idx256 struct {

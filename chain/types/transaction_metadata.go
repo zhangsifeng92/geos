@@ -1,9 +1,9 @@
 package types
 
 import (
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
 )
 
 type TransactionMetadata struct {
@@ -17,7 +17,7 @@ type TransactionMetadata struct {
 	Scheduled   bool                     `json:"scheduled"`
 }
 
-//go:generate gotemplate -outfmt "gen_%v" "github.com/eosspark/eos-go/common/container/treeset" PublicKeySet(ecc.PublicKey,ecc.ComparePubKey,false)
+//go:generate gotemplate -outfmt "gen_%v" "github.com/zhangsifeng92/geos/common/container/treeset" PublicKeySet(ecc.PublicKey,ecc.ComparePubKey,false)
 type SigningKeysType struct {
 	ID        common.ChainIdType
 	PublicKey PublicKeySet

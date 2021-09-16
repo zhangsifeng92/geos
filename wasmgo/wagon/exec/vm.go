@@ -12,10 +12,10 @@ import (
 	"io"
 	"math"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/disasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/exec/internal/compile"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
-	ops "github.com/eosspark/eos-go/wasmgo/wagon/wasm/operators"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/disasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/exec/internal/compile"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
+	ops "github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/operators"
 )
 
 var (

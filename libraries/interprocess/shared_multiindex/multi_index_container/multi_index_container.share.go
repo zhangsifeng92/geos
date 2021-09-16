@@ -1,10 +1,10 @@
 package multi_index_container
 
 import (
-	"github.com/eosspark/eos-go/libraries/container"
-	"github.com/eosspark/eos-go/libraries/interprocess/allocator"
-	. "github.com/eosspark/eos-go/libraries/interprocess/offsetptr"
-	"github.com/eosspark/eos-go/libraries/multiindex"
+	"github.com/zhangsifeng92/geos/libraries/container"
+	"github.com/zhangsifeng92/geos/libraries/interprocess/allocator"
+	. "github.com/zhangsifeng92/geos/libraries/interprocess/offsetptr"
+	"github.com/zhangsifeng92/geos/libraries/multiindex"
 	"unsafe"
 )
 

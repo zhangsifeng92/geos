@@ -1,12 +1,12 @@
 package types
 
 import (
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	"github.com/eosspark/eos-go/common"
-	. "github.com/eosspark/eos-go/exception"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	"github.com/zhangsifeng92/geos/common"
+	. "github.com/zhangsifeng92/geos/exception"
 )
 
-//go:generate gotemplate -outfmt "gen_%v" "github.com/eosspark/eos-go/common/container/treeset" AccountDeltaSet(AccountDelta,CompareAccountDelta,false)
+//go:generate gotemplate -outfmt "gen_%v" "github.com/zhangsifeng92/geos/common/container/treeset" AccountDeltaSet(AccountDelta,CompareAccountDelta,false)
 type BaseActionTrace struct {
 	Receipt          ActionReceipt
 	Act              Action

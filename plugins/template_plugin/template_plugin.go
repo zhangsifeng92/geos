@@ -2,8 +2,8 @@
 package template_plugin
 
 import (
-	. "github.com/eosspark/eos-go/plugins/appbase/app"
 	"github.com/urfave/cli"
+	. "github.com/zhangsifeng92/geos/plugins/appbase/app"
 )
 
 const TemplatePlug = PluginTypeName("TemplatePlugin")

@@ -3,7 +3,7 @@ package template
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/eosspark/eos-go/log"
+	"github.com/zhangsifeng92/geos/log"
 	"reflect"
 	"strconv"
 )

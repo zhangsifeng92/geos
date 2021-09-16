@@ -4,15 +4,15 @@ import (
 	"bytes"
 	"encoding/binary"
 	"errors"
-	//"github.com/eosspark/eos-go/wasmgo/injection"
+	//"github.com/zhangsifeng92/geos/wasmgo/injection"
 
 	//"fmt"
-	"github.com/eosspark/eos-go/wasmgo/wagon/disasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
-	//"github.com/eosspark/eos-go/wasmgo/wagon/validate"
-	"github.com/eosspark/eos-go/wasmgo/compiler/opcodes"
-	"github.com/eosspark/eos-go/wasmgo/utils"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/disasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
+	//"github.com/zhangsifeng92/geos/wasmgo/wagon/validate"
+	"github.com/zhangsifeng92/geos/wasmgo/compiler/opcodes"
+	"github.com/zhangsifeng92/geos/wasmgo/utils"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
 )
 
 type Module struct {

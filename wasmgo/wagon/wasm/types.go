@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
 )
 
 type Marshaler interface {

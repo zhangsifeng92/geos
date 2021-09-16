@@ -1,12 +1,12 @@
 package wallet_plugin
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	. "github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/libraries/asio"
 	"github.com/urfave/cli"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	. "github.com/zhangsifeng92/geos/plugins/appbase/app"
 	"os"
 	"path/filepath"
 	"runtime"

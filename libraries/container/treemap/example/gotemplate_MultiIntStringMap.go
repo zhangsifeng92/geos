@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	"github.com/eosspark/eos-go/libraries/container"
-	rbt "github.com/eosspark/eos-go/libraries/container/redblacktree"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	"github.com/zhangsifeng92/geos/libraries/container"
+	rbt "github.com/zhangsifeng92/geos/libraries/container/redblacktree"
 )
 
 // template type Map(K,V,Compare,Multi)

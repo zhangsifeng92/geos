@@ -2,15 +2,15 @@ package wasmgo
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/common/eos_math"
-	"github.com/eosspark/eos-go/crypto"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	"github.com/eosspark/eos-go/exception"
-	"github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
+	"github.com/zhangsifeng92/geos/common/eos_math"
+	"github.com/zhangsifeng92/geos/crypto"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	"github.com/zhangsifeng92/geos/exception"
+	"github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/log"
 	"os"
 	//"time"
-	//"github.com/eosspark/eos-go/wasmgo/wasm"
+	//"github.com/zhangsifeng92/geos/wasmgo/wasm"
 )
 
 const (

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
 )
 
 // Import is an interface implemented by types that can be imported by a WebAssembly module.

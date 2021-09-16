@@ -42,8 +42,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/disasm"
-	ops "github.com/eosspark/eos-go/wasmgo/wagon/wasm/operators"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/disasm"
+	ops "github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/operators"
 )
 
 // A small note on the usage of discard instructions:

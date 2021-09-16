@@ -6,8 +6,8 @@ package treeset
 
 import (
 	"fmt"
-	. "github.com/eosspark/eos-go/libraries/container/treeset/example"
-	"github.com/eosspark/eos-go/log"
+	. "github.com/zhangsifeng92/geos/libraries/container/treeset/example"
+	"github.com/zhangsifeng92/geos/log"
 	"testing"
 )
 

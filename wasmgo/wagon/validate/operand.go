@@ -5,7 +5,7 @@
 package validate
 
 import (
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
 )
 
 type operand struct {

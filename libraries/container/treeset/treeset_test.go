@@ -6,7 +6,7 @@ package treeset
 
 import (
 	"fmt"
-	. "github.com/eosspark/eos-go/libraries/container/treeset/example"
+	. "github.com/zhangsifeng92/geos/libraries/container/treeset/example"
 	"testing"
 )
 
@@ -100,7 +100,7 @@ func TestSetEach(t *testing.T) {
 		default:
 			t.Errorf("Too many")
 		}
-		index ++
+		index++
 	})
 }
 

@@ -1,6 +1,6 @@
 package console
 
-import "github.com/eosspark/eos-go/common"
+import "github.com/zhangsifeng92/geos/common"
 
 type ConsoleInterface interface {
 	getOptions() *StandardTransactionOptions

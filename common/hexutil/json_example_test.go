@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/eosspark/eos-go/common/hexutil"
+	"github.com/zhangsifeng92/geos/common/hexutil"
 )
 
 type MyType [5]byte

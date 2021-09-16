@@ -3,10 +3,10 @@ package net_plugin
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
-	"github.com/eosspark/eos-go/crypto/ecc"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
 	"reflect"
 )
 

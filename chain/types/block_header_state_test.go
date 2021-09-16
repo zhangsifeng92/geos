@@ -1,11 +1,11 @@
 package types
 
 import (
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
-	"github.com/eosspark/eos-go/crypto/ecc"
 	"github.com/stretchr/testify/assert"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
 	"testing"
 )
 

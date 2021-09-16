@@ -3,15 +3,15 @@ package wallet_api_plugin
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
-	. "github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/plugins/http_plugin"
-	"github.com/eosspark/eos-go/plugins/wallet_plugin"
 	"github.com/urfave/cli"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/log"
+	. "github.com/zhangsifeng92/geos/plugins/appbase/app"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin"
+	"github.com/zhangsifeng92/geos/plugins/wallet_plugin"
 )
 
 const WalletApiPlug = PluginTypeName("WalletApiPlugin")

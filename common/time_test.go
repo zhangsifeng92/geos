@@ -2,8 +2,8 @@ package common
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/libraries/asio"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/libraries/asio"
 	_ "net/http/pprof"
 	"testing"
 )

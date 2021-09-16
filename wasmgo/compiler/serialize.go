@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/eosspark/eos-go/wasmgo/compiler/opcodes"
+	"github.com/zhangsifeng92/geos/wasmgo/compiler/opcodes"
 )
 
 // Serialize serializes a set of SSA-form instructions into a byte array

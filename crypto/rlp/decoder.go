@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/eosspark/eos-go/log"
+	"github.com/zhangsifeng92/geos/log"
 	"io"
 	"io/ioutil"
 	"math"

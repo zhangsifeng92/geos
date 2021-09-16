@@ -1,10 +1,10 @@
 package wasmgo
 
 import (
-	"github.com/eosspark/eos-go/chain/types"
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/common/eos_math"
+	"github.com/zhangsifeng92/geos/chain/types"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/common/eos_math"
 )
 
 type EnvContext interface {

@@ -34,7 +34,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	. "github.com/eosspark/eos-go/exception/try"
+	. "github.com/zhangsifeng92/geos/exception/try"
 	"math/big"
 	"strconv"
 )

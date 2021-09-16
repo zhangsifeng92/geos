@@ -1,6 +1,6 @@
 package container
 
-import "github.com/eosspark/eos-go/log"
+import "github.com/zhangsifeng92/geos/log"
 
 type Container interface {
 	Empty() bool

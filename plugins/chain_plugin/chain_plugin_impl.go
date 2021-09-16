@@ -1,12 +1,12 @@
 package chain_plugin
 
 import (
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/plugins/appbase/app/include"
-	"github.com/eosspark/eos-go/libraries/asio"
-	. "github.com/eosspark/eos-go/plugins/chain_interface"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	"github.com/zhangsifeng92/geos/plugins/appbase/app"
+	"github.com/zhangsifeng92/geos/plugins/appbase/app/include"
+	. "github.com/zhangsifeng92/geos/plugins/chain_interface"
 )
 
 type ChainPluginImpl struct {

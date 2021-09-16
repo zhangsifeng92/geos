@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
-	"github.com/eosspark/eos-go/crypto/rlp"
-	. "github.com/eosspark/eos-go/exception/try"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
+	. "github.com/zhangsifeng92/geos/exception/try"
 	"golang.org/x/crypto/ripemd160"
 	"hash"
 )

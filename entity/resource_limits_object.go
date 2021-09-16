@@ -1,7 +1,7 @@
 package entity
 
 import (
-	"github.com/eosspark/eos-go/common"
+	"github.com/zhangsifeng92/geos/common"
 )
 
 type ResourceLimitsObject struct {

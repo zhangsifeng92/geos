@@ -2,7 +2,7 @@ package common
 
 import (
 	"encoding/json"
-	"github.com/eosspark/eos-go/libraries/asio"
+	"github.com/zhangsifeng92/geos/libraries/asio"
 	"strconv"
 	"strings"
 	"time"

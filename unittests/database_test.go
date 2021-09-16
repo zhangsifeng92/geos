@@ -2,13 +2,13 @@ package unittests
 
 import (
 	"testing"
-	//"github.com/eosspark/eos-go/chain"
+	//"github.com/zhangsifeng92/geos/chain"
 	//"github.com/syndtr/goleveldb/leveldb"
-	. "github.com/eosspark/eos-go/database"
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/chain/types"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
+	. "github.com/zhangsifeng92/geos/database"
 )
 
 func TestUndo(t *testing.T) {
@@ -19,7 +19,6 @@ func TestUndo(t *testing.T) {
 	billy := DbHouse{Id: uint64(1), Area: uint64(7), Name: "billy", Carnivore: Carnivore{7, 7}}
 
 	db.Insert(&billy) //insert success
-
 
 	// Make sure we can retrieve that account by name
 	tmp := DbHouse{}
@@ -46,40 +45,40 @@ func TestGetBlocks(t *testing.T) {
 	// Produce 200 blocks and check their IDs should match the above
 	test.ProduceBlocks(NumOfBlocksToProd, false)
 	for i := 0; i < int(NumOfBlocksToProd); i++ {
-		blockIds = append(blockIds, test.Control.FetchBlockByNumber(uint32(i + 1)).BlockID())
+		blockIds = append(blockIds, test.Control.FetchBlockByNumber(uint32(i+1)).BlockID())
 		assert.Equal(t, types.NumFromID(&blockIds[len(blockIds)-1]), uint32(i+1))
-		assert.Equal(t,test.Control.FetchBlockByNumber(uint32(i+1)).BlockID(),blockIds[len(blockIds)-1])
+		assert.Equal(t, test.Control.FetchBlockByNumber(uint32(i+1)).BlockID(), blockIds[len(blockIds)-1])
 	}
 
 	// Utility function to check expected irreversible block
-	CalcExpLastIrrBlockNum := func(headBlockNum uint32) uint32{
+	CalcExpLastIrrBlockNum := func(headBlockNum uint32) uint32 {
 		producerSize := len(test.Control.HeadBlockState().ActiveSchedule.Producers)
-		maxReversibleRounds := common.EosPercent(uint64(producerSize),uint32(common.DefaultConfig.Percent_100 - common.DefaultConfig.IrreversibleThresholdPercent))
+		maxReversibleRounds := common.EosPercent(uint64(producerSize), uint32(common.DefaultConfig.Percent_100-common.DefaultConfig.IrreversibleThresholdPercent))
 		if maxReversibleRounds == 0 {
 			return headBlockNum
-		}else {
+		} else {
 			currentRound := headBlockNum / uint32(common.DefaultConfig.ProducerRepetitions)
-			irreversibleRound := currentRound- uint32(maxReversibleRounds)
-			return (irreversibleRound +1) * uint32(common.DefaultConfig.ProducerRepetitions) -1
+			irreversibleRound := currentRound - uint32(maxReversibleRounds)
+			return (irreversibleRound+1)*uint32(common.DefaultConfig.ProducerRepetitions) - 1
 		}
 	}
 	// Check the last irreversible block number is set correctly
 	expectedLastIrreversibleBlockNumber := CalcExpLastIrrBlockNum(NumOfBlocksToProd)
-	assert.Equal(t,test.Control.HeadBlockState().DposIrreversibleBlocknum, expectedLastIrreversibleBlockNumber)
+	assert.Equal(t, test.Control.HeadBlockState().DposIrreversibleBlocknum, expectedLastIrreversibleBlockNumber)
 	// Check that block 201 cannot be found (only 20 blocks exist)
-	assert.Equal(t,test.Control.FetchBlockByNumber(NumOfBlocksToProd + 1+ 1), (*types.SignedBlock)(nil))
+	assert.Equal(t, test.Control.FetchBlockByNumber(NumOfBlocksToProd+1+1), (*types.SignedBlock)(nil))
 
 	var NextNumOfBlocksToProd uint32 = 100
 	// Produce 100 blocks and check their IDs should match the above
-	test.ProduceBlocks(NextNumOfBlocksToProd,false)
+	test.ProduceBlocks(NextNumOfBlocksToProd, false)
 
 	nextExpectedLastIrreversibleBlockNumber := CalcExpLastIrrBlockNum(NumOfBlocksToProd + NextNumOfBlocksToProd)
 	// Check the last irreversible block number is updated correctly
-	assert.Equal(t,test.Control.HeadBlockState().DposIrreversibleBlocknum,nextExpectedLastIrreversibleBlockNumber)
+	assert.Equal(t, test.Control.HeadBlockState().DposIrreversibleBlocknum, nextExpectedLastIrreversibleBlockNumber)
 	// Check that block 201 can now be found
-	CheckNoThrow(t, func() {test.Control.FetchBlockByNumber(NumOfBlocksToProd+1)})
+	CheckNoThrow(t, func() { test.Control.FetchBlockByNumber(NumOfBlocksToProd + 1) })
 	// Check the latest head block match
-	assert.Equal(t,test.Control.FetchBlockByNumber(NumOfBlocksToProd + NextNumOfBlocksToProd + 1).BlockID(), test.Control.HeadBlockId())
+	assert.Equal(t, test.Control.FetchBlockByNumber(NumOfBlocksToProd+NextNumOfBlocksToProd+1).BlockID(), test.Control.HeadBlockId())
 
 	test.close()
 

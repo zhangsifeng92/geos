@@ -2,9 +2,9 @@ package common
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/exception"
-	"github.com/eosspark/eos-go/exception/try"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/exception"
+	"github.com/zhangsifeng92/geos/exception/try"
 	"testing"
 )
 

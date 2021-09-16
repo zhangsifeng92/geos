@@ -1,14 +1,14 @@
 package types
 
 import (
-	"github.com/eosspark/eos-go/chain/types/generated_containers"
-	. "github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
+	"github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	. "github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
 )
 
-//go:generate gotemplate -outfmt "gen_%v" "github.com/eosspark/eos-go/common/container/treeset" PermissionLevelSet(PermissionLevel,ComparePermissionLevel,false)
+//go:generate gotemplate -outfmt "gen_%v" "github.com/zhangsifeng92/geos/common/container/treeset" PermissionLevelSet(PermissionLevel,ComparePermissionLevel,false)
 type PermissionToAuthorityFunc func(*PermissionLevel) SharedAuthority
 type AuthorityChecker struct {
 	permissionToAuthority PermissionToAuthorityFunc

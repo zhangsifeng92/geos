@@ -1,8 +1,8 @@
 package console
 
 import (
-	"github.com/eosspark/eos-go/common"
 	"github.com/robertkrimen/otto"
+	"github.com/zhangsifeng92/geos/common"
 )
 
 type ProduceAPI struct {

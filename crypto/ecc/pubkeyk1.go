@@ -3,8 +3,8 @@ package ecc
 import (
 	"fmt"
 
-	"github.com/eosspark/eos-go/crypto/btcsuite/btcd/btcec"
-	"github.com/eosspark/eos-go/crypto/btcsuite/btcutil/base58"
+	"github.com/zhangsifeng92/geos/crypto/btcsuite/btcd/btcec"
+	"github.com/zhangsifeng92/geos/crypto/btcsuite/btcutil/base58"
 )
 
 type innerK1PublicKey struct {

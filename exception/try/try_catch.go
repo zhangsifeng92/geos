@@ -1,8 +1,8 @@
 package try
 
 import (
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/log"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/log"
 	"reflect"
 )
 

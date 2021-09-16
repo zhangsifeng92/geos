@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto/rlp"
 	"github.com/stretchr/testify/assert"
 	"github.com/tidwall/gjson"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
 	"strings"
 	"testing"
 )

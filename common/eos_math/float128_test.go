@@ -3,8 +3,8 @@ package eos_math
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/eosspark/eos-go/crypto/rlp"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
 	"math"
 	"math/big"
 	"strconv"

@@ -3,9 +3,9 @@
 package transaction_state
 
 import (
-	"github.com/eosspark/eos-go/libraries/container"
-	"github.com/eosspark/eos-go/libraries/multiindex"
-	"github.com/eosspark/eos-go/plugins/net_plugin/multi_index"
+	"github.com/zhangsifeng92/geos/libraries/container"
+	"github.com/zhangsifeng92/geos/libraries/multiindex"
+	"github.com/zhangsifeng92/geos/plugins/net_plugin/multi_index"
 )
 
 // template type MultiIndex(SuperIndex,SuperNode,Value)

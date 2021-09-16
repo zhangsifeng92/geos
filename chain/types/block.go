@@ -3,10 +3,10 @@ package types
 import (
 	"encoding/binary"
 	"encoding/json"
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	"github.com/eosspark/eos-go/crypto/rlp"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	"github.com/zhangsifeng92/geos/crypto/rlp"
 )
 
 type TransactionStatus uint8

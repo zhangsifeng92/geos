@@ -2,10 +2,10 @@ package unittests
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/chain"
-	"github.com/eosspark/eos-go/chain/types"
-	"github.com/eosspark/eos-go/common"
 	"github.com/stretchr/testify/assert"
+	"github.com/zhangsifeng92/geos/chain"
+	"github.com/zhangsifeng92/geos/chain/types"
+	"github.com/zhangsifeng92/geos/common"
 	"io/ioutil"
 	"testing"
 )
@@ -75,7 +75,7 @@ func TestAbiSerializer(t *testing.T) {
 	prettyTrx.Actions = append(prettyTrx.Actions, &types.Action{
 		Account: payloadless,
 		Name:    doit,
-		Authorization: []common.PermissionLevel {
+		Authorization: []common.PermissionLevel{
 			{
 				Actor:      payloadless,
 				Permission: common.DefaultConfig.ActiveName,

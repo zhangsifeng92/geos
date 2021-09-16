@@ -9,9 +9,9 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
-	ops "github.com/eosspark/eos-go/wasmgo/wagon/wasm/operators"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
+	ops "github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/operators"
 )
 
 // mockVM is a minimal implementation of a virtual machine to

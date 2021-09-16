@@ -14,9 +14,9 @@ import (
 	"os"
 	"sort"
 
-	"github.com/eosspark/eos-go/wasmgo/wagon/disasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm"
-	"github.com/eosspark/eos-go/wasmgo/wagon/wasm/leb128"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/disasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm"
+	"github.com/zhangsifeng92/geos/wasmgo/wagon/wasm/leb128"
 )
 
 // TODO: track the number of imported funcs,memories,tables and globals to adjust

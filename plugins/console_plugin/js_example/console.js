@@ -1,4 +1,4 @@
-// loadScript("/Users/walker/go/src/github.com/eosspark/eos-go/plugins/console_plugin/js_example/console.js")
+// loadScript("/Users/walker/go/src/github.com/zhangsifeng92/geos/plugins/console_plugin/js_example/console.js")
 wallet.Create('walker');
 // wallet.Unlock('walker','pw5K2bLCZWrw4DNGiceW4MqY5LwPBvvxkD97gpjuFQeeJ4F3w3aji');
 wallet.ImportKey('walker','5K2G1AucmTj11jNp4rRAW9RsaXHWVEFubETNAADuhr9SA9EXdYZ');

@@ -1,8 +1,8 @@
 package entity
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/common/eos_math"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/common/eos_math"
 )
 
 type Object struct {

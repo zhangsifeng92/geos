@@ -1,9 +1,9 @@
 package console
 
 import (
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/plugins/net_plugin"
 	"github.com/robertkrimen/otto"
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/plugins/net_plugin"
 )
 
 //NetAPI interacts with local p2p network connections

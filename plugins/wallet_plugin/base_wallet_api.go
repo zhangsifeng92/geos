@@ -1,6 +1,6 @@
 package wallet_plugin
 
-import "github.com/eosspark/eos-go/crypto/ecc"
+import "github.com/zhangsifeng92/geos/crypto/ecc"
 
 type BaseWalletApi interface {
 	GetPrivateKey(pubkey ecc.PublicKey) ecc.PrivateKey

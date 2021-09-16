@@ -3,7 +3,7 @@ package app
 import (
 	"github.com/urfave/cli"
 
-	. "github.com/eosspark/eos-go/exception/try"
+	. "github.com/zhangsifeng92/geos/exception/try"
 )
 
 /** these notifications get called from the plugin when their state changes so that

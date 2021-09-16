@@ -6,8 +6,8 @@ package treemap
 
 import (
 	"fmt"
-	. "github.com/eosspark/eos-go/libraries/container/treemap/example"
 	"github.com/stretchr/testify/assert"
+	. "github.com/zhangsifeng92/geos/libraries/container/treemap/example"
 	"testing"
 )
 

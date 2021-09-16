@@ -2,23 +2,23 @@ package producer_plugin
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/chain/types"
-	. "github.com/eosspark/eos-go/chain/types/generated_containers"
-	. "github.com/eosspark/eos-go/plugins/chain_interface"
-	"github.com/eosspark/eos-go/plugins/chain_plugin"
+	"github.com/zhangsifeng92/geos/chain/types"
+	. "github.com/zhangsifeng92/geos/chain/types/generated_containers"
+	. "github.com/zhangsifeng92/geos/plugins/chain_interface"
+	"github.com/zhangsifeng92/geos/plugins/chain_plugin"
 
-	//Chain "github.com/eosspark/eos-go/plugins/producer_plugin/testing" /*test model*/
+	//Chain "github.com/zhangsifeng92/geos/plugins/producer_plugin/testing" /*test model*/
 	"encoding/json"
-	Chain "github.com/eosspark/eos-go/chain" /*real chain*/
-	"github.com/eosspark/eos-go/common"
-	"github.com/eosspark/eos-go/crypto"
-	"github.com/eosspark/eos-go/crypto/ecc"
-	. "github.com/eosspark/eos-go/exception"
-	. "github.com/eosspark/eos-go/exception/try"
-	"github.com/eosspark/eos-go/log"
-	. "github.com/eosspark/eos-go/plugins/appbase/app"
-	"github.com/eosspark/eos-go/libraries/asio"
 	"github.com/urfave/cli"
+	Chain "github.com/zhangsifeng92/geos/chain" /*real chain*/
+	"github.com/zhangsifeng92/geos/common"
+	"github.com/zhangsifeng92/geos/crypto"
+	"github.com/zhangsifeng92/geos/crypto/ecc"
+	. "github.com/zhangsifeng92/geos/exception"
+	. "github.com/zhangsifeng92/geos/exception/try"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	"github.com/zhangsifeng92/geos/log"
+	. "github.com/zhangsifeng92/geos/plugins/appbase/app"
 	"strings"
 	"time"
 )

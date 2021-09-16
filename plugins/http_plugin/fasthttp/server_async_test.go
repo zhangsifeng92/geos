@@ -2,8 +2,8 @@ package fasthttp_test
 
 import (
 	"fmt"
-	"github.com/eosspark/eos-go/libraries/asio"
-	"github.com/eosspark/eos-go/plugins/http_plugin/fasthttp"
+	"github.com/zhangsifeng92/geos/libraries/asio"
+	"github.com/zhangsifeng92/geos/plugins/http_plugin/fasthttp"
 	"log"
 	"syscall"
 	"testing"
